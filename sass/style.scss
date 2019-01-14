@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	line-height: normal;
+}
+
+/*base style*/
+
+li {
+	list-style: none;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+.wrapper {
+	max-width: 1040px;
+	margin: 0 auto;
+}
+.white {
+	color: #fff;
+}
+
+/*fonts*/
+
+@font-face {
+	font-family: Trebuchet_MS;
+	src: url(../fonts/Trebuchet_MS.ttf);
+}
+
+@import "__header";
+@import "__main";
+@import "__trips";
+@import "__post";
+@import "__footer";
+@import "__components";
+@import "__mobile";

@@ -1,0 +1,31 @@
+/*trips*/
+.trips__container {
+	margin-top: 55px;
+	display: flex;
+	justify-content: space-between;
+	.card {
+		width: 500px;
+		.card__header {
+			img {
+				width: 100%;
+			}
+		}
+		.card__content {
+			font-family: Trebuchet_MS;
+			font-size: 35px;
+			font-weight: bold;
+			display: flex;
+			justify-content: space-between;
+			.card__content-title,
+			.card__content-price {
+				margin-top: 14px;
+			}
+		}
+		.card__footer {
+			.card__footer-description {
+				display: block;
+				margin-top: 10px;
+			}
+		}
+	}
+}

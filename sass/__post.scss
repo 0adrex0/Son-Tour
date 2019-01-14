@@ -1,0 +1,73 @@
+/*post*/
+.post__container {
+	margin-top: 65px;
+	.post__container__title {
+		font-family: Trebuchet_MS;
+		line-height: 52px;
+		font-size: 50px;
+	}
+	.post__container__wrap {
+		display: flex;
+		.post__container__article {
+			width: 777px;
+			.article__list,
+			.article__text {
+				line-height: 19px;
+				font-size: 14px;
+				margin-top: 6px;
+			}
+			.article__formuls {
+				width: 100%;
+				margin-top: 30px;
+				border-collapse: collapse;
+				font-size: 14px;
+				th,
+				td {
+					white-space: nowrap;
+					padding: 10px;
+					text-align: left;
+				}
+				tr:nth-child(1) {
+					background: rgba(119, 119, 119, 0.2);
+				}
+			}
+			.article__list {
+				margin-left: 15px;
+				li {
+					line-height: 19px;
+					list-style: none;
+					&:before {
+						content: "—";
+						position: relative;
+						left: -5px;
+					}
+				}
+			}
+		}
+		.article__factoid {
+			margin-top: 170px;
+			width: 227px;
+			span {
+				display: block;
+			}
+			.article__factoid-title {
+				font-family: Trebuchet_MS;
+				font-size: 100px;
+				letter-spacing: -0.05em;
+				color: #777777;
+				font-weight: bold;
+			}
+			.article__factoid-description_1 {
+				margin-top: 4px;
+				line-height: 31px;
+				font-size: 30px;
+			}
+			.article__factoid-description_2 {
+				margin-top: 8px;
+				line-height: 25px;
+				font-size: 20px;
+				color: #777777;
+			}
+		}
+	}
+}

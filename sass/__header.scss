@@ -1,0 +1,30 @@
+/*header*/
+header {
+	background: #00BFF3;
+	.header__container {
+		display: flex;
+		justify-content: space-between;
+		min-height: 104px;
+		align-items: center;
+		.header__logo {
+			display: flex;
+		}
+		.header__logo span {
+			font-size: 16px;
+			margin-left: 22px;
+			margin-top: 10px;
+		}
+	}
+	.header__contacts {
+		display: flex;
+		align-items: center;
+		.header__contacts__phone {
+			margin-right: 26px;
+			font-size: 30px;
+		}
+		.header__contacts__callback {
+			margin-right: 46px;
+			cursor: pointer;
+		}
+	}
+}

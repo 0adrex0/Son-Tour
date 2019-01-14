@@ -1,0 +1,135 @@
+.main__container {
+	.main__container__tour {
+		position: relative;
+		background: url(../img/pic/tour.png);
+		height: 553px;
+		.tour__circle {
+			position: absolute;
+			bottom: 32px;
+			left: 32px;
+			text-align: center;
+			width: 160px;
+			height: 160px;
+			padding: 45px;
+			border-radius: 100%;
+			background: rgba(255, 242, 0, 0.7);
+			.tour__circle-title {
+				font-family: Trebuchet_MS;
+				font-weight: bold;
+				font-size: 25px;
+				color: #000000;
+				display: block;
+			}
+			.tour__circle-content {
+				font-family: Trebuchet_MS;
+				font-weight: bold;
+				font-size: 14px;
+				text-transform: uppercase;
+				margin-top: 10px;
+				display: block;
+			}
+			.tour__circle-code {
+				display: inline-block;
+				font-family: Trebuchet_MS;
+				font-weight: bold;
+				font-size: 24px;
+				margin-top: 7px;
+				background: #000;
+				padding: 1px 5px;
+			}
+		}
+		.tour-vector {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+	}
+	.main__container__description {
+		margin-top: 23px;
+		.main__container__description__tour {
+			display: flex;
+			align-items: center;
+			.tour__description-title {
+				font-family: Trebuchet_MS;
+				font-size: 35px;
+			}
+			.tour__description-rating {
+				margin-left: 20px;
+				height: 26px;
+				span {
+					display: inline-block;
+					font-size: 35px;
+					line-height: 0.7;
+					color: #DDD;
+				}
+				.rating-active:before {
+					position: absolute;
+					content: "\2605";
+					color: #FF9900;
+				}
+			}
+			.tour__description-price {
+				font-family: Trebuchet MS;
+				font-weight: bold;
+				font-size: 35px;
+				margin-left: 15px;
+			}
+		}
+		.main__container__description__rating {
+			display: flex;
+			align-items: center;
+			position: relative;
+			margin-top: 25px;
+			.rating__comments {
+				font-size: 14px;
+				margin-right: 35px;
+			}
+			.rating__average {
+				margin-right: 24px;
+				display: block;
+				text-align: center;
+				line-height: 52px;
+				width: 52px;
+				height: 52px;
+				font-size: 24px;
+				background: #00BFF3;
+				color: #fff;
+			}
+			table {
+				th {
+					white-space: nowrap;
+					letter-spacing: 0.05em;
+					text-transform: uppercase;
+				}
+				th {
+					font-size: 12px;
+					padding-right: 16px;
+				}
+				td {
+					font-size: 18px;
+					font-weight: bold;
+				}
+			}
+			.rating__factoid {
+				position: absolute;
+				width: 168px;
+				right: 88px;
+				bottom: 28px;
+				.rating__factoid-title {
+					display: block;
+					font-family: Trebuchet_MS;
+					font-size: 88px;
+					letter-spacing: -0.05em;
+					text-transform: uppercase;
+					color: #777777;
+					font-weight: bold;
+				}
+				.rating__factoid-description {
+					line-height: 31px;
+					font-size: 30px;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
